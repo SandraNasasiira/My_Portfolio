@@ -1,67 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    <header>
-      <a href="#" class="logo">N.S</a>
-      <div class="toggle"></div>
-      <ul>
-          <li><a href="home">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contact">Contacts</a></li>
-      </ul>
-    </header>
- <section class="banner">
-     <div class="textBx">
-       <
-         <h2> I am<br><span>  Nasasiira  Sandra.</span></h2>
-         <h3>A UI/UX Designer</h3>
-     </div>
-         <div class="sticky">
-         <a href="#" class="fa fa-linkedin"></a><br>
-         <a href="#" class="fa fa-twitter"></a><br>
-         <a href="#" class="fa fa-github"></a><br>
-         <a href="#" class="fa fa-behance"></a><br>
-         <a href="#" class="fa fa-envelope" ></a><br>
-
-         </div>
-
- </section>
- <section class="about" id="about">
-   <div class="about-container">
-     <div class="heading" >
+  <header id="home">
+    <a href="#" class="logo">Sandra</a>
+    <div class="toggle"></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contacts</a></li>
+    </ul>
+  </header>
+  <section class="banner">
+    <div class="textBx">
+      <h2> I am<br><span>Nasasiira Sandra.</span></h2>
+      <h3>A UI/UX Designer</h3>
+    </div>
+  </section>
+  <div class="about" id="about">
+    <div class="about-container">
+      <div class="heading">
         <h2>About Me</h2>
       </div>
-     <div class="content">
-     <div class="picture">
-       <img src="/images/mypicccc-removebg-preview (6).png" alt="">
-     </div>
-      <div class="contentBx">
-        <p>I am a curious,self motivated UI/UX design student.
-          My passion for delivering an outstanding user experience ,providing an exceptional and intuitive application design,
-           and using latest technology to solve problems has brought me to AkiraChix, where I am working on my Diploma in UI,UX Design.
-            I am familiar with Adobe XD, Illustrator, InDesign, Photoshop and Figma,with knowledge in HTML and CSS. I enjoy coming up with design strategies to solve design problems.
+      <div class="content">
+        <div class="picture">
+          <img class="myPic" id="sandra" src="/images/IMG-20210319-WA0019.jpg" alt="">
+        </div>
+        <div class="contentBx">
+          <p>I am a curious,self motivated UI/UX design student.
+            My passion for delivering an outstanding user experience ,providing an exceptional and intuitive application
+            design,
+            and using latest technology to solve problems has brought me to AkiraChix, where I am working on my Diploma
+            in UI,UX Design.
+            I am familiar with Adobe XD, Illustrator, In design, Photo shop and Figma,with knowledge in HTML and CSS. I
+            enjoy coming up with design strategies to solve design problems.
             I seek an entry level UI,UX design opportunity.</p>
+        </div>
       </div>
+      <button class="button">Download CV</button>
     </div>
-    <button class="button">Download CV</button>
-   </div>
- </section>
- <section class="projects" id="projects">
-     <div class="heading">
+  </div>
+
+  <div class="projects" id="projects">
+    <div class="heading">
       <h2>Projects</h2>
       <div class="container">
         <div class="card">
           <img class="card__image" src="images/nutriiic.jpg" alt="project1-img">
           <div class="card__body">
-            <h3 class="card__title">Nutriconi website</h3>
+            <h3 class="card__title">Nutrikoni website</h3>
             <p class="card__desc"> We created this website as a group Built with JavaScript,HTML and CSS</p>
             <div class="card__btn">
               <a href="https://www.figma.com/file/7rvdp54SKrT5Anddhe3fip/Be-A-star" target="_blank">View project</a>
@@ -112,27 +111,35 @@
           <img class="card__image" src="./images/Screenshot from 2021-05-19 09-51-43.png" alt="project4-img">
           <div class="card__body">
             <h3 class="card__title">Food Delivery App Design concept</h3>
-            <p class="card__desc">Designed In figma. It allows people to order for food and it's delivered in their locations</p>
+            <p class="card__desc">Designed In figma. It allows people to order for food and it's delivered in their
+              locations</p>
             <div class="card__btn">
               <a href="https://www.figma.com/file/sIzBilf402CxWIQIqJWJqw/food-app" target="_blank">View Project</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!--contact me-->
-    <section id="contactme" class="contactme">
-      <!-- <h2>Contact Me</h2> -->
-  <footer>
-      <h2 class="footer__title">Let's connect</h2>
-      <p class="footer__desc">Nasasiira Sandra &#169; 2021</p>
-  </footer>
+    </div>
+
+  <div class="footer-dark" id="contact">
+    <p id="contacttitle">Contact Me</p>
+    <div class="col item social">
+      <a href="https://github.com/SandraNasasiira"><i class="fa fa-github"></i></a>
+      <a href="https://twitter.com/NasasiiraSandra"><i class="fa fa-twitter"></i></a>
+      <a href="https://dribbble.com/Sandra_Nasasiira"><i class="fa fa-dribbble"></i></a>
+      <a href="https://www.linkedin.com/in/sandra-nasasiira-ba60a7209/"><i class="fa fa-linkedin"></i></a>
+    </div>
+     <p class="email">sandranasasiiraresty@gmail.com</p>
+    <p class="copyright">sandraresty©2021</p>
+
+  </div>
   <script src="app.js"></script>
- <script type="text/javascript">
-   window.addEventListener('scroll',function(){
-    var header = document.querySelector('header');
-    header.classList.toggle('sticky',window.scrollY > 0);
-   })
- </script>
+  <script type="text/javascript">
+    window.addEventListener('scroll', function () {
+      var header = document.querySelector('header');
+      header.classList.toggle('sticky', window.scrollY > 0);
+    })
+  </script>
 </body>
+
 </html>
